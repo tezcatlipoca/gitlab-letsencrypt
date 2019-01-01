@@ -1,3 +1,10 @@
+### THIS FORK:
+ - Updates the packages
+
+ - Changes the polling to every 30sec for 15 min per this PR: https://github.com/rolodato/gitlab-letsencrypt/pull/50
+
+-----
+
 # gitlab-letsencrypt [![Build Status](https://travis-ci.org/rolodato/gitlab-letsencrypt.svg?branch=master)](https://travis-ci.org/rolodato/gitlab-letsencrypt)
 
 Command-line tool to generate a [Let's Encrypt](https://letsencrypt.org) certificate for use with [GitLab Pages](https://pages.gitlab.io/).
