@@ -1,0 +1,9 @@
+#!/bin/sh
+GITLAB_USER_EMAIL=user@example.com
+CERT_DOMAINS=example.com
+CI_PROJECT_URL=http://example.com
+CERT_TOKEN=123
+CERT_OPTIONS=''
+
+echo --email $GITLAB_USER_EMAIL --domain $CERT_DOMAINS --repository $CI_PROJECT_URL --token $CERT_TOKEN --jekyll $CERT_OPTIONS --path ./.well-known
+node index.js --email $GITLAB_USER_EMAIL --domain $CERT_DOMAINS --repository $CI_PROJECT_URL --token $CERT_TOKEN --jekyll $CERT_OPTIONS --path ./.well-known
